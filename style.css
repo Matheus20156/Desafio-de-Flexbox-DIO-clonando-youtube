@@ -11,13 +11,12 @@ header .menu .center{
     width: 10px;
 }
 main {
-    display: flex; /* Transforma 'main' em um contêiner flexível */
-    justify-content: space-between; /* Empurra o primeiro item para a esquerda e o último para a direita */
-    align-items: flex-start; /* Alinha os itens ao topo do contêiner (verticalmente) */
-    width: 100%; /* Garante que 'main' ocupe toda a largura disponível */
-    /*padding: 20px; *//* Adicione um padding, se desejar */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
     flex-basis: 0;
-    box-sizing: border-box; /* Garante que padding e borda sejam incluídos na largura total */
+    box-sizing: border-box; 
 }
 .corpo{
     
