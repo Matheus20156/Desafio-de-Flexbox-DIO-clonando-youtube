@@ -1,0 +1,26 @@
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .menu{
+    width: 20px;  
+}
+ 
+header .menu .center{
+    width: 10px;
+}
+main {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    flex-basis: 0;
+    box-sizing: border-box; 
+}
+.corpo{
+    
+}
+.sidebar{
+    width: 500px;
+}
